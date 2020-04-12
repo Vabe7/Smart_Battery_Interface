@@ -82,7 +82,6 @@ void recieveEvent(int Anzahl){
   while (Wire.available()){
     register_to_call = Wire.read();
   }
-  Serial.println(String(register_to_call));
 
 }
 
